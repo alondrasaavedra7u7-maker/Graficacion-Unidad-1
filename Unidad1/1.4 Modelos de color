@@ -1,0 +1,25 @@
+# 1.4 Modelos de color
+Los modelos de color son sistemas que permiten representar y organizar los colores de manera numérica para su uso en dispositivos digitales y procesos de impresión. Cada modelo define cómo se combinan los colores primarios para generar una amplia gama de tonos. En graficación por computadora, los modelos de color son fundamentales para garantizar una correcta visualización, edición y reproducción de imágenes.
+## RGB
+Modelo aditivo usado en pantallas.
+Colores primarios: Rojo, Verde y Azul.
+## CMY
+Modelo sustractivo usado en impresión.
+Colores: Cian, Magenta y Amarillo.
+## HSV
+Representa el color en:
+- Tono
+- Saturación
+- Valor
+## HSL
+Similar a HSV pero usa:
+- Tono
+- Saturación
+- Luminosidad
+# Iluminación de un cubo en Blender
+1. Agregar un cubo (Shift + A → Mesh → Cube)
+2. Agregar una luz (Shift + A → Light → Point)
+3. Mover la luz sobre el cubo
+4. Ir a Rendered View
+5. Ajustar intensidad en propiedades de la luz
+La iluminación permite visualizar sombras y profundidad.
